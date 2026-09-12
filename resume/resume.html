@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sharika Dubey — Technical Lead</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=block"
+      rel="stylesheet"
+    />
+    <style>
+      @page {
+        size: A4;
+        margin: 13mm 14mm;
+      }
+
+      :root {
+        --accent: #0d7d72;
+        --ink: #15202e;
+        --body: #35414f;
+        --meta: #66738a;
+        --rule: #d9dee6;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+        font-size: 9.6pt;
+        line-height: 1.45;
+        color: var(--body);
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin: 0;
+        color: var(--ink);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      header {
+        border-bottom: 2px solid var(--accent);
+        padding-bottom: 8px;
+      }
+
+      h1 {
+        font-size: 21pt;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .title {
+        margin-top: 3px;
+        font-size: 10.2pt;
+        font-weight: 600;
+        color: var(--accent);
+      }
+
+      .contact {
+        margin-top: 6px;
+        font-size: 8.4pt;
+        color: var(--meta);
+      }
+
+      .contact span + span::before {
+        content: "|";
+        margin: 0 6px;
+        color: var(--rule);
+      }
+
+      section {
+        margin-top: 13px;
+      }
+
+      h2 {
+        font-size: 8.6pt;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        padding-bottom: 3px;
+        border-bottom: 0.75pt solid var(--rule);
+      }
+
+      section > *:first-child + * {
+        margin-top: 7px;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .skills {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .skills th {
+        width: 22%;
+        padding: 2.5px 10px 2.5px 0;
+        text-align: left;
+        font-size: 8.8pt;
+        font-weight: 600;
+        color: var(--ink);
+        vertical-align: top;
+      }
+
+      .skills td {
+        padding: 2.5px 0;
+        vertical-align: top;
+      }
+
+      .role {
+        margin-top: 9px;
+      }
+
+      /* Applied only to blocks that comfortably fit a page; the multi-year
+         ThinkSys entry must be allowed to break. */
+      .keep,
+      .early .role,
+      .edu .role {
+        break-inside: avoid;
+      }
+
+      .role:first-of-type {
+        margin-top: 7px;
+      }
+
+      .row {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 14px;
+      }
+
+      .org {
+        font-size: 10.6pt;
+        font-weight: 700;
+        color: var(--ink);
+      }
+
+      .job {
+        font-size: 9.6pt;
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      .engagement {
+        margin-top: 7px;
+        font-size: 9.4pt;
+        font-weight: 600;
+        color: var(--accent);
+      }
+
+      .meta {
+        font-size: 8.6pt;
+        color: var(--meta);
+        white-space: nowrap;
+      }
+
+      ul {
+        margin: 4px 0 0;
+        padding-left: 13px;
+      }
+
+      li {
+        margin-bottom: 2.5px;
+      }
+
+      li::marker {
+        color: var(--accent);
+      }
+
+      .early .role {
+        margin-top: 7px;
+      }
+
+      .early p {
+        margin-top: 2px;
+        font-size: 9.2pt;
+      }
+
+      .sites {
+        color: var(--meta);
+        font-size: 8.6pt;
+      }
+
+      .certs {
+        margin-top: 7px;
+        padding-left: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Sharika Dubey</h1>
+      <p class="title">
+        Technical Lead — Microservices Architecture &amp; Engineering Team
+        Leadership
+      </p>
+      <p class="contact">
+        <span>sharika.dubey@gmail.com</span><span>+91 7065175175</span
+        ><span>linkedin.com/in/sharika-dubey-36518358</span><span
+          >Noida, UP, India</span
+        ><span>Open to Remote</span>
+      </p>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Technical Lead with 13+ years in software engineering — a decade of deep
+        Magento/e-commerce architecture experience, followed by a recent
+        transition into microservices, event-driven systems, and engineering team
+        leadership. Currently leads a team of 10+ engineers at ThinkSys, owning a
+        production communications platform (Twilio + Mailgun, Kafka-based
+        dispatch) and directing the design of a next-generation automation engine
+        replacing a legacy rules system. Comfortable operating across the full
+        stack — from PHP/Magento e-commerce systems to Ruby on Rails, React.js,
+        and AWS-based microservice architectures.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <table class="skills">
+        <tbody>
+          <tr>
+            <th>Leadership</th>
+            <td>
+              Team Management (10+ direct reports) &middot; Cross-Team
+              Architecture Coordination &middot; Sprint Planning &middot;
+              Mentoring
+            </td>
+          </tr>
+          <tr>
+            <th>Architecture</th>
+            <td>
+              Microservices &middot; Event-Driven Systems &middot; Apache Kafka
+              &middot; REST APIs &middot; GraphQL &middot; System &amp; Schema
+              Design
+            </td>
+          </tr>
+          <tr>
+            <th>Languages &amp; Frameworks</th>
+            <td>
+              PHP &middot; Ruby on Rails &middot; React.js &middot; JavaScript,
+              jQuery, KnockoutJS &middot; Magento 1 &amp; 2 (Adobe Commerce)
+            </td>
+          </tr>
+          <tr>
+            <th>Cloud &amp; DevOps</th>
+            <td>
+              AWS (EKS, ECR, Secrets Manager, S3, KMS) &middot; Docker &middot;
+              CI/CD (CircleCI, Jenkins) &middot; Git
+            </td>
+          </tr>
+          <tr>
+            <th>Integrations &amp; Data</th>
+            <td>
+              Twilio (SMS/Voice/A2P) &middot; Mailgun &middot; MySQL, MSSQL
+              &middot; Epicor P21, Akeneo PIM
+            </td>
+          </tr>
+          <tr>
+            <th>Methodology</th>
+            <td>
+              Agile / Scrum / Kanban &middot; Requirements Analysis &middot; Risk
+              Management
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <div class="role">
+        <div class="keep">
+          <div class="row">
+            <span class="org">ThinkSys Software Pvt. Ltd.</span>
+            <span class="meta">Noida, India</span>
+          </div>
+          <div class="row">
+            <span class="job">Associate Project Lead / Team Lead</span>
+            <span class="meta">Aug 2019 &ndash; Present</span>
+          </div>
+        </div>
+
+        <div class="keep">
+        <p class="engagement">
+          AnyoneHome (Inhabit) — Communications Platform &amp; Microservices
+          Architecture
+          <span class="meta" style="font-weight: 400"
+            >&nbsp;&nbsp;Oct 2025 &ndash; Present</span
+          >
+        </p>
+        <ul>
+          <li>
+            Leads a team of 10+ engineers owning the platform's communications
+            module — Twilio + Mailgun integration and Kafka-based automated
+            messaging — supporting ~400,000 messages across email and SMS every 7
+            days.
+          </li>
+          <li>
+            Leads the team designing and building a next-generation automation
+            platform ("Playbook") to replace a legacy flat rules engine —
+            personally directing architecture decisions and reviewing all
+            implementation, introducing enrollment-gated membership, stage-based
+            customer journeys, and per-property trigger overrides.
+          </li>
+          <li>
+            Coordinates with 4 other engineering teams on shared platform
+            architecture and API contracts.
+          </li>
+          <li>
+            Owns the message delivery lifecycle — bounce handling, opt-in/opt-out
+            compliance, delivery-status reconciliation — for a live system
+            spanning 150M+ historical records and 6,800+ active automation rules
+            across 200+ customer accounts.
+          </li>
+          <li>
+            Operates services on AWS EKS with CircleCI-driven CI/CD across
+            dev/UAT/RC/production; Docker-based deployment.
+          </li>
+        </ul>
+        </div>
+
+        <div class="keep">
+        <p class="engagement">
+          CaptainU.com (Stack Sports) — Collegiate Sports Recruiting Platform,
+          Team Lead
+          <span class="meta" style="font-weight: 400"
+            >&nbsp;&nbsp;May 2024 &ndash; Sep 2025</span
+          >
+        </p>
+        <ul>
+          <li>
+            Led a Ruby on Rails (microservices) and React.js engineering team
+            developing and enhancing platform features, third-party integrations,
+            and business workflows for a collegiate sports recruiting platform
+            used by millions of athletes and coaches.
+          </li>
+          <li>
+            Owned technical solutioning end-to-end — sprint planning, code
+            reviews, task allocation, and mentoring — while collaborating with
+            product and cross-functional teams to deliver scalable, maintainable
+            features and ensure application performance and reliability.
+          </li>
+        </ul>
+        </div>
+
+        <div class="keep">
+        <p class="engagement">
+          Magento E-Commerce Engagements
+          <span class="meta" style="font-weight: 400"
+            >&nbsp;&nbsp;Aug 2019 &ndash; Apr 2024</span
+          >
+        </p>
+        <ul>
+          <li>
+            <strong>proworldinc.com</strong> — Led the Magento 2.3.5 &rarr; 2.4.6
+            upgrade, implemented Dockerization, and supported the Jenkins
+            deployment pipeline.
+          </li>
+          <li>
+            <strong>abatix.com</strong> — Managed a B2B Magento store
+            synchronized with Epicor P21 &amp; Akeneo PIM; implemented
+            client-specific integrations (Hubspot, ShipHawk, Element Express);
+            developed custom REST APIs; led the Magento 1.14 &rarr; 2.4.6
+            migration.
+          </li>
+          <li>
+            <strong>spacemantra.com</strong> — Contributed to a new Magento 2
+            store build, including theme customization and custom module
+            integration.
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="early">
+      <h2>Early Career — Magento / E-Commerce Development (2013 &ndash; 2019)</h2>
+
+      <div class="role">
+        <div class="row">
+          <span class="job">IDS Logic — Sr. Software Engineer</span>
+          <span class="meta">Jun 2018 &ndash; Aug 2019</span>
+        </div>
+        <p>
+          Developed and customized Magento 2 themes and checkout flows; built a
+          Warranty Registration Module.
+          <span class="sites"
+            >(store.idslogic.com, metals4u.co.uk, pebblegrey.co.uk, and
+            others)</span
+          >
+        </p>
+      </div>
+
+      <div class="role">
+        <div class="row">
+          <span class="job">SynapseIndia — Sr. Software Engineer</span>
+          <span class="meta">May 2017 &ndash; May 2018</span>
+        </div>
+        <p>
+          Spearheaded development of multiple B2B/B2C Magento stores with dynamic
+          modules and customizations.
+          <span class="sites"
+            >(loveweddingbands.com, Shopmaiya.com, Waydirect.co.uk, and
+            others)</span
+          >
+        </p>
+      </div>
+
+      <div class="role">
+        <div class="row">
+          <span class="job">SoftProdigy — Software Engineer</span>
+          <span class="meta">Sep 2015 &ndash; Dec 2016</span>
+        </div>
+        <p>
+          Delivered end-to-end Magento builds — installations, theming,
+          payment/shipping integration, and eBay/osCommerce migrations — across 8+
+          client projects.
+        </p>
+      </div>
+
+      <div class="role">
+        <div class="row">
+          <span class="job"
+            >Newgenray Technologies Pvt. Ltd. — Software Developer</span
+          >
+          <span class="meta">Mar 2014 &ndash; Jun 2015</span>
+        </div>
+        <p>
+          Delivered end-to-end Magento solutions, custom modules, and UX redesigns
+          across 10+ client sites.
+        </p>
+      </div>
+
+      <div class="role">
+        <div class="row">
+          <span class="job">Bigthing.co — PHP Developer</span>
+          <span class="meta">Aug 2013 &ndash; Mar 2014</span>
+        </div>
+        <p>
+          Built foundational Magento theming skills; developed a fully functional
+          Magento shopping site and a CRM system.
+        </p>
+      </div>
+
+      <div class="role">
+        <div class="row">
+          <span class="job">e.Soft CONNECT — Project Intern</span>
+          <span class="meta">Feb 2013 &ndash; Jul 2013</span>
+        </div>
+        <p>
+          Developed a media-industry website and CRM using PHP, MySQL, jQuery,
+          CSS, and JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Licenses &amp; Certifications</h2>
+      <ul class="certs">
+        <li>
+          Adobe Certified Expert — Adobe Commerce Developer
+          <span class="meta">&nbsp;&nbsp;Issued Sep 2023</span>
+        </li>
+        <li>
+          Adobe Certified Professional — Adobe Commerce Developer
+          <span class="meta">&nbsp;&nbsp;Issued Sep 2023</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="edu">
+      <h2>Education</h2>
+      <div class="role">
+        <div class="row">
+          <span class="job"
+            >Master of Computer Applications (MCA), Computer Science</span
+          >
+          <span class="meta">2010 &ndash; 2013</span>
+        </div>
+        <p>KNIPSS Sultanpur</p>
+      </div>
+      <div class="role">
+        <div class="row">
+          <span class="job"
+            >Bachelor of Computer Applications (BCA), Computer Science</span
+          >
+          <span class="meta">Jul 2007 &ndash; May 2010</span>
+        </div>
+        <p>Jaybees College</p>
+      </div>
+    </section>
+  </body>
+</html>
