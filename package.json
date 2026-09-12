@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "preview": "python3 -m http.server 3000 --directory out",
     "lint": "eslint",
     "resume:pdf": "google-chrome --headless --disable-gpu --no-sandbox --virtual-time-budget=4000 --no-pdf-header-footer --print-to-pdf=public/resume.pdf resume/resume.html"
   },
